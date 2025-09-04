@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colegio Santo Domingo Savio - Acacías</title>
+  <meta name="description" content="Colegio Santo Domingo Savio en Acacías Meta. Educación en valores, ciencia y excelencia académica.">
+  <meta name="author" content="Colegio Santo Domingo Savio">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="Images/Logo.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- HEADER / ENCABEZADO -->
+  <header>
+    <div class="header-container">
+      <img src="Images/Logo.png" alt="Escudo Colegio Santo Domingo Savio" class="logo">
+      <div class="header-text">
+        <h1>Colegio Santo Domingo Savio</h1>
+        <p class="lema">“Ciencia, Virtud y Alegría para un Futuro Mejor”</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVEGACIÓN -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#slider">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#noticias">Noticias</a></li>
+      <li><a href="#recursos">Recursos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- SLIDER -->
+  <section id="slider" class="slider">
+    <div class="slides">
+      <div class="slide active">
+        <img src="Images/imagencolegio.png" alt="Foto institucional del colegio">
+      </div>
+      <div class="slide">
+        <img src="Images/servicios.png" alt="Servicios educativos">
+      </div>
+      <div class="slide">
+        <img src="Images/admisiones.png" alt="Admisiones 2026">
+      </div>
+    </div>
+    <div class="controls">
+      <span class="prev">&#10094;</span>
+      <span class="next">&#10095;</span>
+    </div>
+  </section>
+
+  <!-- MAIN -->
+  <main>
+    <!-- Servicios -->
+    <section id="servicios">
+      <h2>Niveles Educativos</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Preescolar</h3>
+          <p>Espacio donde se forman las bases del conocimiento, la creatividad y los valores.</p>
+        </div>
+        <div class="card">
+          <h3>Primaria</h3>
+          <p>Educación integral que fortalece las competencias académicas y humanas.</p>
+        </div>
+        <div class="card">
+          <h3>Bachillerato</h3>
+          <p>Preparación académica y personal para los retos del futuro y la educación superior.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Noticias -->
+    <section id="noticias">
+      <h2>Noticias Recientes</h2>
+      <div class="news-grid">
+
+        <article class="news-card">
+          <img src="Images/admisiones_Noticias.png" alt="Admisiones 2026">
+          <div class="news-content">
+            <h3>Admisiones 2026</h3>
+            <p>Ya están abiertas las inscripciones para el año lectivo 2026. La venta de formularios inicia el 19 de agosto. ¡Haz parte de nuestra comunidad educativa!</p>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <img src="Images/intercolegiados_Voleibol_Noticias.png" alt="Campeones voleibol juvenil 2025">
+          <div class="news-content">
+            <h3>Campeones Intercolegiados 2025 - Voleibol Juvenil Masculino</h3>
+            <p>Felicitamos a nuestros estudiantes por el campeonato intercolegiado de voleibol juvenil masculino, demostrando disciplina y compromiso deportivo.</p>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <img src="Images/intercolegiados_Baloncesto_Noticias.png" alt="Campeones mini baloncesto 2025">
+          <div class="news-content">
+            <h3>Campeones Intercolegiados 2025 - Mini Baloncesto</h3>
+            <p>Orgullo institucional: nuestros pequeños atletas ganaron el torneo intercolegiado de mini baloncesto 2025. ¡Un logro que inspira!</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Aside -->
+    <aside id="recursos">
+      <h2>Recursos</h2>
+      <ul>
+        <li><a href="https://www.colombiaaprende.edu.co/" target="_blank">Colombia Aprende</a></li>
+        <li><a href="https://www.icfes.gov.co/" target="_blank">ICFES</a></li>
+        <li><a href="https://www.mineducacion.gov.co/" target="_blank">Ministerio de Educación</a></li>
+      </ul>
+    </aside>
+
+    <!-- Formulario de contacto -->
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Colegio Santo Domingo Savio - Acacías, Meta</p>
+    <p>Cra. 14 Vía La Chorrera, Acacías Meta | Tel: 311 5892550</p>
+    <p><a href="mailto:colegiosantodomingoacacias@gmail.com">colegiosantodomingoacacias@gmail.com</a></p>
+
+    <div class="socials">
+      <span class="social-item">
+        <img src="Images/logofacebook.png" alt="Logo Facebook" class="logo2">
+        <a href="https://www.facebook.com/SantoDomingoSavioAcacias/" target="_blank">Facebook</a>
+      </span>
+      <span class="social-item">
+        <img src="Images/logoinstagram.png" alt="Logo Instagram" class="logo2">
+        <a href="https://www.instagram.com/santodomingoacacias/" target="_blank">Instagram</a>
+      </span>
+    </div>
+  </footer>
+
+
+  <!-- SCRIPT SLIDER -->
+  <script>
+    const slides = document.querySelectorAll('.slide');
+    const prev = document.querySelector('.prev');
+    const next = document.querySelector('.next');
+    let index = 0;
+
+    function showSlide(i) {
+      slides.forEach(slide => slide.classList.remove('active'));
+      slides[i].classList.add('active');
+    }
+
+    prev.addEventListener('click', () => {
+      index = (index - 1 + slides.length) % slides.length;
+      showSlide(index);
+    });
+
+    next.addEventListener('click', () => {
+      index = (index + 1) % slides.length;
+      showSlide(index);
+    });
+
+    setInterval(() => {
+      index = (index + 1) % slides.length;
+      showSlide(index);
+    }, 5000);
+  </script>
+</body>
+</html>
