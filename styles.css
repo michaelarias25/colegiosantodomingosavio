@@ -204,6 +204,14 @@ section h2 {
 
 
 /* Recursos */
+
+aside {
+  background: #e8f5e9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
 #recursos {
   margin: 40px 0;
   text-align: center;
